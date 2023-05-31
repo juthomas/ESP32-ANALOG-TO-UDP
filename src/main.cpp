@@ -25,7 +25,7 @@ WiFiUDP Udp;
 
 const boolean DEBUG = true; // baud rate : 115200
 
-const uint8_t inputs_to_send[] = {33, 32, 35, 34, 39, 36}; // Pins de l'esp32 sur lesquels lire
+const uint8_t inputs_to_send[] = {33, 32, 35, 34, 39, 36}; // Broches de l'ESP32 à lire
 
 void setup()
 {
